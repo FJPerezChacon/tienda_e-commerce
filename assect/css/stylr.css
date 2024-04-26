@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(214, 199, 186, 0.5);
+}   
+
+header{
+    background-image: url(../img/fashion-mujer.jpg);
+    background-size: cover;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(29, 22, 14);
+    margin-bottom: 1px;
+
+}
+
+.contenedor-grid{
+    height: 3000px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+
+}
+
+.contenedor-grid h2{
+    text-align: center;
+    margin: 7px;
+    color: rgb(29, 22, 14);
+}
+
+.menu{
+    height: 100%;
+    background-color:rgb(224, 213, 206);
+}
+
+.menu h2{
+    font-size: 2.2rem;
+    margin: 10px;
+}
+
+.color-iten{
+    background-color:rgb(224, 213, 206) ;
+    font-size: 1.3rem;
+}
+
+
+.menu a{
+    color:rgb(29, 22, 14);
+    text-decoration: none;
+}
+
+
+.texto{
+    padding: 20px;
+    font-size: 2.5rem;
+}
+
+.principal{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content:space-around;
+    gap: 1%;
+    
+}
+
+.tarjeta{
+    display:inline-flex ;
+    flex-direction:column;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+
+footer{
+    background-color: rgb(224, 213, 206);
+    text-align: center;
+    border:1px solid rgb(202, 202, 202);
+}
